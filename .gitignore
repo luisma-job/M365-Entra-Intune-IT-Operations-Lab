@@ -1,0 +1,9 @@
+﻿# Local reports generated from the lab tenant
+Reports/
+
+# PowerShell temporary files
+*.tmp
+
+# Local environment / secret files
+.env
+*.secret
