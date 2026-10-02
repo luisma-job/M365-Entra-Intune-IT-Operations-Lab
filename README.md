@@ -264,39 +264,27 @@ not available.
 
 \## Repository Structure
 
-
-
 ```text
-
 M365-Entra-Intune-IT-Operations-Lab/
+|
++-- M365-Entra-InventoryReport.ps1
++-- README.md
++-- .gitignore
+|
++-- docs/
+|   +-- Conditional-Access-Troubleshooting.md
+|   +-- Intune-Device-Compliance-Troubleshooting.md
+|   +-- Microsoft-Graph-Inventory-Automation.md
+|   +-- User-Offboarding-Procedure.md
+|
++-- samples/
+    +-- Users-Report-Sample.csv
+    +-- Groups-Report-Sample.csv
+    +-- Licenses-Report-Sample.csv
+```
 
-│
+The local `Reports/` directory is excluded from Git because it contains
+output generated directly from the lab tenant.
 
-├── M365-Entra-InventoryReport.ps1
-
-├── README.md
-
-├── .gitignore
-
-│
-
-├── docs/
-
-│   ├── Conditional-Access-Troubleshooting.md
-
-│   ├── Intune-Device-Compliance-Troubleshooting.md
-
-│   ├── Microsoft-Graph-Inventory-Automation.md
-
-│   └── User-Offboarding-Procedure.md
-
-│
-
-└── samples/
-
-&#x20;   ├── Users-Report-Sample.csv
-
-&#x20;   ├── Groups-Report-Sample.csv
-
-&#x20;   └── Licenses-Report-Sample.csv
-
+The `samples/` directory contains sanitized example output for
+demonstration purposes.
